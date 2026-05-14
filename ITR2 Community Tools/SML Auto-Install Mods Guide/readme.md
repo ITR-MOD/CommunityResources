@@ -2,16 +2,16 @@
 By Donny00, with help from KZekai and TheHuman
 
 
-# Contents:
- 1.  Notes
- 2.  Alpakit Packaging Plugin Setup
- 3. Unreal Engine Files Setup
- 4. Unreal Project Folder Setup    
- 5. Unreal Engine Program Setup
- 6. Creating Your Own Mod
- 7. Installing SML Auto-Load Mods*
+## Contents:
+1. [Notes](notes)
+2. [Alpakit Packaging Plugin Setup](alpakit-packaging-plugin-setup)
+3. [Unreal Engine Files Setup](unreal-engine-files-setup)
+4. [Unreal Project Folder Setup](unreal-project-folder-setup)
+5. [Unreal Engine Program Setup](unreal-engine-program-setup)
+6. [Creating Your Own Mod](creating-your-own-mod)
+7. [Installing SML Auto-Load Mods](installing-sml-auto-load-mods)
     
-# Notes:
+## Notes
  -   This guide is built for modding Into The Radius 2, but may be applicable to other titles built on the Unreal Engine.
     
  -   To avoid possibly losing any existing files you may have, and to prevent issues with other mod types in your project (e.g. patchers/ replacers), it is advisable to create a new blank Unreal project to use for this setup. Once successful, you can easily migrate your file between projects using Unreal Engine if needed.
@@ -28,13 +28,13 @@ By Donny00, with help from KZekai and TheHuman
 
  -   Files originally sourced from [github.com/Kein/AlpakitSO](https://github.com/Kein/AlpakitSO)
     
-# Alpakit Packaging Plugin Setup:
+## Alpakit Packaging Plugin Setup:
 
-**Unreal ENGINE Files Setup**
+### Unreal ENGINE Files Setup
 
-1.  Copy the “Engine” folder from the Alpakit files into your Unreal ENGINE directory.
+1. Copy the “Engine” folder from the Alpakit files into your Unreal ENGINE directory.
   
-2.  Open a command terminal (not PowerShell) in the following Unreal ENGINE Directory:
+2. Open a command terminal (not PowerShell) in the following Unreal ENGINE Directory:
 
 	`…\Engine\Source\Programs\AutomationTool`
 	
@@ -43,30 +43,30 @@ By Donny00, with help from KZekai and TheHuman
 	Your terminal window should look similar to this:
 	![enter image description here](https://i.ibb.co/GQQRksCY/unnamed.png)
 
-3.  Run the following command by typing the file name into the console and pressing enter:  
+3. Run the following command by typing the file name into the console and pressing enter:  
 
 	`dotnet build AutomationTool.csproj`
 
 	![enter image description here](https://i.ibb.co/jZ1rpYGZ/unnamed.png)
 
-4.  Once completed, your terminal should look similar to this and can be closed:
+4. Once completed, your terminal should look similar to this and can be closed:
 	![enter image description here](https://i.ibb.co/7tzLdK1M/unnamed.png)
 
-**Unreal PROJECT Folder Setup**
+### Unreal PROJECT Folder Setup
 
-5.  Copy the contents of the ‘Setup Files’ folder into the root of your Unreal PROJECT folder. 
+5. Copy the contents of the ‘Setup Files’ folder into the root of your Unreal PROJECT folder. 
 
-6.  Right-click on “pack_mod.bat” and choose the “Edit in Notepad” option.  
+6. Right-click on “pack_mod.bat” and choose the “Edit in Notepad” option.  
 
-7.  Identify the line near the top that starts “set UATPath=”.
+7. Identify the line near the top that starts “set UATPath=”.
     
-8.  Replace everything to the right of the ‘=’ symbol with the path below (ensuring to complete the path before ‘...\’, and wrap the path in full quotation marks).
+8. Replace everything to the right of the ‘=’ symbol with the path below (ensuring to complete the path before ‘...\’, and wrap the path in full quotation marks).
   
 	`…\Engine\Binaries\DotNET\AutomationTool\AutomationTool.exe`
 
 	![enter image description here](https://i.ibb.co/spHfjB79/unnamed.png)
 
-9.  Copy the “Mods” folder (Alpakit Files) into the root of your Unreal PROJECT folder. This folder contains a test mod to confirm everything works:
+9. Copy the “Mods” folder (Alpakit Files) into the root of your Unreal PROJECT folder. This folder contains a test mod to confirm everything works:
 
 	![enter image description here](https://i.ibb.co/v42fmwqL/unnamed.png)
 	
@@ -90,7 +90,7 @@ By Donny00, with help from KZekai and TheHuman
 
 	![enter image description here](https://i.ibb.co/ZRK86dNz/unnamed.png)
 
-**Unreal Engine Program Setup**
+### Unreal Engine Program Setup
 
 14. Open your Unreal project with the Unreal Engine.
 
@@ -107,7 +107,7 @@ By Donny00, with help from KZekai and TheHuman
 	![enter image description here](https://i.ibb.co/s9xNtdxr/unnamed.png)
 
 
-# Creating Your Own Mod:
+## Creating Your Own Mod:
 1. In file explorer, make a copy of the ‘TestMod’ folder inside …\Mods.
     
 2. Rename the folder to the title of your mod.
@@ -147,30 +147,33 @@ By Donny00, with help from KZekai and TheHuman
     
 	This is most easily done using the program WinRAR, otherwise you will need to extract the files and then re-zip them.
 
-# Install SML Auto-Load Mods
-1.  Ensure that Simple Mod Loader is installed into your IntoTheRadius2 GAME directory correctly:
+## Install SML Auto-Load Mods
+1. Ensure that Simple Mod Loader is installed into your IntoTheRadius2 GAME directory correctly:
 	
 	`…\steamapps\common\IntoTheRadius2\IntoTheRadius2\Content\Paks`
 
-2.  Navigate to this path in your GAME directory:
+2. Navigate to this path in your GAME directory:
     
 	`…\steamapps\common\IntoTheRadius2\IntoTheRadius2`
 
-3.  Create a new folder named ‘Mods’ here, this is where all future SML auto-loaded mods are to be placed:
+3. Create a new folder named ‘Mods’ here, this is where all future SML auto-loaded mods are to be placed:
 
 	![enter image description here](https://i.ibb.co/4nMtgrg8/unnamed.png)
 
-4.  Extract your packaged mod into your GAME directory’s ‘Mods’ folder:
+4. Extract your packaged mod into your GAME directory’s ‘Mods’ folder:
 
-  ![enter image description here](https://i.ibb.co/FLhMdctg/unnamed.png)
+	![enter image description here](https://i.ibb.co/FLhMdctg/unnamed.png)
 
-5.  Your mod should now be successfully installed.
+5. Your mod should now be successfully installed.
   
-6.  Start Into The Radius 2, and when at a suitable game level, press the tilde (~) key twice to open the larger SML console window.
+6. Start Into The Radius 2, and when at a suitable game level, press the tilde (~) key twice to open the larger SML console window.
   
-7.  If everything has worked correctly, your mod should be loaded and you should see an output similar to this in the console:
+7. If everything has worked correctly, your mod should be loaded and you should see an output similar to this in the console:
   
 	`[SML] Attempting to respawn autodiscovered mods…`
+
 	`[SML] Spawned NewMod as xxxxxxxxxxxxx`
+
 	`[SML] Total autodiscovered mods spawned: 1`
+
 	`[SML] Done`
