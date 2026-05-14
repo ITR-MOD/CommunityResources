@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set UATPath="Replace with path from step 12 in setup document"
+set UATPath="Replace with path from step 8 in setup document"
 set ProjectFile=
 set ProjectDir=%~dp0
 
