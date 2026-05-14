@@ -9,7 +9,7 @@ By Donny00, with help from KZekai and TheHuman
 4. [Unreal Project Folder Setup](#unreal-project-folder-setup)
 5. [Unreal Engine Program Setup](#unreal-engine-program-setup)
 6. [Creating Your Own Mod](#creating-your-own-mod)
-7. [Installing SML Auto-Load Mods](#installing-sml-auto-load-mods)
+7. [Installing SML Auto Load Mods](#installing-sml-auto-load-mods)
     
 ## Notes
  -   This guide is built for modding Into The Radius 2, but may be applicable to other titles built on the Unreal Engine.
@@ -147,7 +147,7 @@ By Donny00, with help from KZekai and TheHuman
     
 	This is most easily done using the program WinRAR, otherwise you will need to extract the files and then re-zip them.
 
-## Install SML Auto-Load Mods
+## Install SML Auto Load Mods
 1. Ensure that Simple Mod Loader is installed into your IntoTheRadius2 GAME directory correctly:
 	
 	`…\steamapps\common\IntoTheRadius2\IntoTheRadius2\Content\Paks`
