@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\alpakit\\module.alpakit.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\intermediate\\build\\win64\\x64\\intotheradius2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\alpakit\\definitions.alpakit.h",
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\intermediate\\build\\win64\\unrealeditor\\inc\\alpakit\\uht\\alpakit.init.gen.cpp",
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\intermediate\\build\\win64\\unrealeditor\\inc\\alpakit\\uht\\alpakitsettings.gen.cpp",
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\source\\alpakit\\public\\alpakitsettings.h",
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\intermediate\\build\\win64\\unrealeditor\\inc\\alpakit\\uht\\alpakitsettings.generated.h",
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\intermediate\\build\\win64\\unrealeditor\\inc\\alpakit\\uht\\modmetadataobject.gen.cpp",
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\source\\alpakit\\public\\modmetadataobject.h",
+            "c:\\program files (x86)\\unreal\\ue5_5_3_itr2\\engine\\source\\editor\\propertyeditor\\public\\idetailcustomization.h",
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\intermediate\\build\\win64\\unrealeditor\\inc\\alpakit\\uht\\modmetadataobject.generated.h",
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\alpakit\\permoduleinline.gen.cpp",
+            "c:\\program files (x86)\\unreal\\ue5_5_3_itr2\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

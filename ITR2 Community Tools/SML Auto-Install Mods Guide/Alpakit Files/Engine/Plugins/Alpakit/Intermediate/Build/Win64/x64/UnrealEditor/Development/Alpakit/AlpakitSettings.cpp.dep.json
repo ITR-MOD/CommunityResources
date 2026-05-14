@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\source\\alpakit\\private\\alpakitsettings.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\intermediate\\build\\win64\\x64\\intotheradius2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\alpakit\\definitions.alpakit.h",
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\source\\alpakit\\public\\alpakitsettings.h",
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\intermediate\\build\\win64\\unrealeditor\\inc\\alpakit\\uht\\alpakitsettings.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

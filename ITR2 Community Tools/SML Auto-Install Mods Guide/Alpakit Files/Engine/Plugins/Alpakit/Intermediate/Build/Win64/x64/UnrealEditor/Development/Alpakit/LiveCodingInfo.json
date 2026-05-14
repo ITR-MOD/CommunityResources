@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Alpakit.cpp.obj": [
+			"Alpakit.init.gen.cpp.obj",
+			"AlpakitSettings.gen.cpp.obj",
+			"ModMetadataObject.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"Alpakit.cpp.obj",
+			"AlpakitCommands.cpp.obj",
+			"AlpakitModEntry.cpp.obj",
+			"AlpakitModEntryList.cpp.obj",
+			"AlpakitSettings.cpp.obj",
+			"AlpakitStyle.cpp.obj",
+			"AlpakitWidget.cpp.obj",
+			"ModMetadataObject.cpp.obj",
+			"ModWizardDefinition.cpp.obj",
+			"SExternalImage.cpp.obj"
+		]
+	}
+}

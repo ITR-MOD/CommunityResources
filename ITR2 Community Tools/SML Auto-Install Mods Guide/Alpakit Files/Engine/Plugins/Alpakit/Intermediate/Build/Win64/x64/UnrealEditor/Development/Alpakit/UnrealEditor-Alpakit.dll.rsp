@@ -1,0 +1,92 @@
+/MANIFEST:EMBED
+/MANIFESTINPUT:"..\Build\Windows\Resources\Default-Win64.manifest"
+/NOLOGO
+/DEBUG:FULL
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:12000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/d2:-ExtendedWarningInfo
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/ALTERNATENAME:__imp___std_init_once_begin_initialize=__imp_InitOnceBeginInitialize
+/ALTERNATENAME:__imp___std_init_once_complete=__imp_InitOnceComplete
+/DELAYLOAD:"d3d12.dll"
+/DELAYLOAD:"DBGHELP.DLL"
+/LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x64"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+/FUNCTIONPADMIN:6
+/NOIMPLIB
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Intermediate\Build\Win64\x64\IntoTheRadius2Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\Module.Alpakit.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\Alpakit.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\AlpakitCommands.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\AlpakitModEntry.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\AlpakitModEntryList.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\AlpakitSettings.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\AlpakitStyle.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\AlpakitWidget.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\ModMetadataObject.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\ModWizardDefinition.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\SExternalImage.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\Default.rc2.res"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Json\UnrealEditor-Json.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Projects\UnrealEditor-Projects.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\UnrealEditor-UnrealEd.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\LevelEditor\UnrealEditor-LevelEditor.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Slate\UnrealEditor-Slate.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\SlateCore\UnrealEditor-SlateCore.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExternalImagePicker\UnrealEditor-ExternalImagePicker.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\EditorStyle\UnrealEditor-EditorStyle.lib"
+"..\Plugins\Editor\PluginBrowser\Intermediate\Build\Win64\x64\UnrealEditor\Development\PluginBrowser\UnrealEditor-PluginBrowser.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"synchronization.lib"
+"dwmapi.lib"
+"imm32.lib"
+/OUT:"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Binaries\Win64\UnrealEditor-Alpakit.dll"
+/PDB:"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Binaries\Win64\UnrealEditor-Alpakit.pdb"
+/ignore:4078

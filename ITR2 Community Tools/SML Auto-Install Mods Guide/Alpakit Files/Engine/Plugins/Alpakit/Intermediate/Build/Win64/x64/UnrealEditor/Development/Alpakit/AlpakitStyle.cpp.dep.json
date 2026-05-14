@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\source\\alpakit\\private\\alpakitstyle.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\intermediate\\build\\win64\\x64\\intotheradius2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\alpakit\\definitions.alpakit.h",
+            "c:\\users\\micha\\documents\\unreal projects\\chuckssdk_5.5 beta 4\\plugins\\alpakit\\source\\alpakit\\public\\alpakitstyle.h",
+            "c:\\program files (x86)\\unreal\\ue5_5_3_itr2\\engine\\source\\runtime\\projects\\public\\interfaces\\ipluginmanager.h",
+            "c:\\program files (x86)\\unreal\\ue5_5_3_itr2\\engine\\source\\runtime\\projects\\public\\plugindescriptor.h",
+            "c:\\program files (x86)\\unreal\\ue5_5_3_itr2\\engine\\source\\runtime\\projects\\public\\custombuildsteps.h",
+            "c:\\program files (x86)\\unreal\\ue5_5_3_itr2\\engine\\source\\runtime\\projects\\public\\localizationdescriptor.h",
+            "c:\\program files (x86)\\unreal\\ue5_5_3_itr2\\engine\\source\\runtime\\projects\\public\\moduledescriptor.h",
+            "c:\\program files (x86)\\unreal\\ue5_5_3_itr2\\engine\\source\\runtime\\projects\\public\\plugindisalloweddescriptor.h",
+            "c:\\program files (x86)\\unreal\\ue5_5_3_itr2\\engine\\source\\runtime\\projects\\public\\pluginreferencedescriptor.h",
+            "c:\\program files (x86)\\unreal\\ue5_5_3_itr2\\engine\\source\\runtime\\projects\\public\\versescope.h",
+            "c:\\program files (x86)\\unreal\\ue5_5_3_itr2\\engine\\source\\runtime\\slatecore\\public\\styling\\slatestyleregistry.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

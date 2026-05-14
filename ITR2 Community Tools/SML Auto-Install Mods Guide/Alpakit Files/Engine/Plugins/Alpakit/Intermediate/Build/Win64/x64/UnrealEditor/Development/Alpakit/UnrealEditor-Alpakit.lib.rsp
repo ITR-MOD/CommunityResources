@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Alpakit.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Intermediate\Build\Win64\x64\IntoTheRadius2Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\Module.Alpakit.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\Alpakit.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\AlpakitCommands.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\AlpakitModEntry.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\AlpakitModEntryList.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\AlpakitSettings.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\AlpakitStyle.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\AlpakitWidget.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\ModMetadataObject.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\ModWizardDefinition.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\SExternalImage.cpp.obj"
+"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\Default.rc2.res"
+/OUT:"C:\Users\micha\Documents\Unreal Projects\ChucksSDK_5.5 beta 4\Plugins\Alpakit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Alpakit\UnrealEditor-Alpakit.lib"
