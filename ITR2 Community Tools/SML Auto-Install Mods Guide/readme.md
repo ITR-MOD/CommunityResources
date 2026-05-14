@@ -3,13 +3,13 @@ By Donny00, with help from KZekai and TheHuman
 
 
 ## Contents:
-1. [Notes](notes)
-2. [Alpakit Packaging Plugin Setup](alpakit-packaging-plugin-setup)
-3. [Unreal Engine Files Setup](unreal-engine-files-setup)
-4. [Unreal Project Folder Setup](unreal-project-folder-setup)
-5. [Unreal Engine Program Setup](unreal-engine-program-setup)
-6. [Creating Your Own Mod](creating-your-own-mod)
-7. [Installing SML Auto-Load Mods](installing-sml-auto-load-mods)
+1. [Notes](#notes)
+2. [Alpakit Packaging Plugin Setup](#alpakit-packaging-plugin-setup)
+3. [Unreal Engine Files Setup](#unreal-engine-files-setup)
+4. [Unreal Project Folder Setup](#unreal-project-folder-setup)
+5. [Unreal Engine Program Setup](#unreal-engine-program-setup)
+6. [Creating Your Own Mod](#creating-your-own-mod)
+7. [Installing SML Auto-Load Mods](#installing-sml-auto-load-mods)
     
 ## Notes
  -   This guide is built for modding Into The Radius 2, but may be applicable to other titles built on the Unreal Engine.
