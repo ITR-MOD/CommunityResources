@@ -107,7 +107,7 @@ By Donny00, with help from KZekai and TheHuman
 	![enter image description here](https://i.ibb.co/s9xNtdxr/unnamed.png)
 
 
-**Creating Your Own Mod:**
+# Creating Your Own Mod:
 1. In file explorer, make a copy of the ‘TestMod’ folder inside …\Mods.
     
 2. Rename the folder to the title of your mod.
