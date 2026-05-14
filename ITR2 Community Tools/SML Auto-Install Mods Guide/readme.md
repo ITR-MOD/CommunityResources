@@ -32,79 +32,79 @@ By Donny00, with help from KZekai and TheHuman
 
 **Unreal ENGINE Files Setup**
 
- 1.  Copy the “Engine” folder from the Alpakit files into your Unreal ENGINE directory.
+1.  Copy the “Engine” folder from the Alpakit files into your Unreal ENGINE directory.
   
- 2.  Open a command terminal (not PowerShell) in the following Unreal ENGINE Directory:
+2.  Open a command terminal (not PowerShell) in the following Unreal ENGINE Directory:
 
-		`…\Engine\Source\Programs\AutomationTool`
+	`…\Engine\Source\Programs\AutomationTool`
 	
-		(To easily open a terminal, click into the folder address bar once you are in the above folder, and replace the address with “cmd” then press the enter key.)  
+	(To easily open a terminal, click into the folder address bar once you are in the above folder, and replace the address with “cmd” then press the enter key.)  
 
-		Your terminal window should look similar to this:
-			![enter image description here](https://i.ibb.co/GQQRksCY/unnamed.png)
+	Your terminal window should look similar to this:
+	![enter image description here](https://i.ibb.co/GQQRksCY/unnamed.png)
 
- 3.  Run the following command by typing the file name into the console and pressing enter:  
+3.  Run the following command by typing the file name into the console and pressing enter:  
 
-		`dotnet build AutomationTool.csproj`
+	`dotnet build AutomationTool.csproj`
 
-		![enter image description here](https://i.ibb.co/jZ1rpYGZ/unnamed.png)
+	![enter image description here](https://i.ibb.co/jZ1rpYGZ/unnamed.png)
 
- 4.  Once completed, your terminal should look similar to this and can be closed:
-		 ![enter image description here](https://i.ibb.co/7tzLdK1M/unnamed.png)
+4.  Once completed, your terminal should look similar to this and can be closed:
+	![enter image description here](https://i.ibb.co/7tzLdK1M/unnamed.png)
 
 **Unreal PROJECT Folder Setup**
 
- 5.  Copy the contents of the ‘Setup Files’ folder into the root of your Unreal PROJECT folder. 
+5.  Copy the contents of the ‘Setup Files’ folder into the root of your Unreal PROJECT folder. 
 
- 6.  Right-click on “pack_mod.bat” and choose the “Edit in Notepad” option.  
+6.  Right-click on “pack_mod.bat” and choose the “Edit in Notepad” option.  
 
- 7.  Identify the line near the top that starts “set UATPath=”.
+7.  Identify the line near the top that starts “set UATPath=”.
     
- 8.  Replace everything to the right of the ‘=’ symbol with the path below (ensuring to complete the path before ‘...\’, and wrap the path in full quotation marks).
+8.  Replace everything to the right of the ‘=’ symbol with the path below (ensuring to complete the path before ‘...\’, and wrap the path in full quotation marks).
   
-		`…\Engine\Binaries\DotNET\AutomationTool\AutomationTool.exe`
+	`…\Engine\Binaries\DotNET\AutomationTool\AutomationTool.exe`
 
-		![enter image description here](https://i.ibb.co/spHfjB79/unnamed.png)
+	![enter image description here](https://i.ibb.co/spHfjB79/unnamed.png)
 
- 9.  Copy the “Mods” folder (Alpakit Files) into the root of your Unreal PROJECT folder. This folder contains a test mod to confirm everything works:
+9.  Copy the “Mods” folder (Alpakit Files) into the root of your Unreal PROJECT folder. This folder contains a test mod to confirm everything works:
 
-  ![enter image description here](https://i.ibb.co/v42fmwqL/unnamed.png)
+	![enter image description here](https://i.ibb.co/v42fmwqL/unnamed.png)
 	
- 10. To confirm that everything has been setup correctly we will run a test pack; open a terminal window in your root Unreal PROJECT folder:
+10. To confirm that everything has been setup correctly we will run a test pack; open a terminal window in your root Unreal PROJECT folder:
 
-		![enter image description here](https://i.ibb.co/F4trm3XC/unnamed.png)
+	![enter image description here](https://i.ibb.co/F4trm3XC/unnamed.png)
 
- 11. To package the test mod we will need to run the “pack_mod.bat” followed by the name of a mod’s folder within the main project’s \Mod folder. In this case, the mod is in a folder called “ExampleMod”, so the command needed will be:  
+11. To package the test mod we will need to run the “pack_mod.bat” followed by the name of a mod’s folder within the main project’s \Mod folder. In this case, the mod is in a folder called “ExampleMod”, so the command needed will be:  
   
-		`pack_mod.bat ExampleMod`
+	`pack_mod.bat ExampleMod`
 
-		![enter image description here](https://i.ibb.co/jvyTGZ7h/unnamed.png)
+	![enter image description here](https://i.ibb.co/jvyTGZ7h/unnamed.png)
 
- 12. The terminal should run for a short time and finally output this:
+12. The terminal should run for a short time and finally output this:
 
-		![enter image description here](https://i.ibb.co/rG49pNBH/unnamed.png)
+	![enter image description here](https://i.ibb.co/rG49pNBH/unnamed.png)
 
- 13. The packaged files will be output to this folder in your Unreal PROJECT folder as a .zip:
+13. The packaged files will be output to this folder in your Unreal PROJECT folder as a .zip:
     
-		`…\Saved\ArchivedPlugins\Windows`
+	`…\Saved\ArchivedPlugins\Windows`
 
-		![enter image description here](https://i.ibb.co/ZRK86dNz/unnamed.png)
+	![enter image description here](https://i.ibb.co/ZRK86dNz/unnamed.png)
 
 **Unreal Engine Program Setup**
 
- 14. Open your Unreal project with the Unreal Engine.
+14. Open your Unreal project with the Unreal Engine.
 
- 15. Open your content browser (CTRL + Space). In the top right of the content browser, click on ‘Settings’ and ensure that ‘Show Plugin Content’ is checked.
+15. Open your content browser (CTRL + Space). In the top right of the content browser, click on ‘Settings’ and ensure that ‘Show Plugin Content’ is checked.
 
-		![enter image description here](https://i.ibb.co/4RwWHX06/unnamed.png)
+	![enter image description here](https://i.ibb.co/4RwWHX06/unnamed.png)
 
- 16. On the left side of the content browser, you should now see the ‘Plugins’ section in your project hierarchy:
+16. On the left side of the content browser, you should now see the ‘Plugins’ section in your project hierarchy:
 
-		![enter image description here](https://i.ibb.co/xSSM1yzg/unnamed.png)
+	![enter image description here](https://i.ibb.co/xSSM1yzg/unnamed.png)
 
- 17. Within the ‘Plugins’ section, you should see the ‘TestMod’ content folder:
+17. Within the ‘Plugins’ section, you should see the ‘TestMod’ content folder:
 	
-		![enter image description here](https://i.ibb.co/s9xNtdxr/unnamed.png)
+	![enter image description here](https://i.ibb.co/s9xNtdxr/unnamed.png)
 
 
 **Creating Your Own Mod:**
@@ -125,9 +125,10 @@ By Donny00, with help from KZekai and TheHuman
 7. In the ‘Plugins’ section of your content browser, you should now see a content folder for your new mod:
 
 	![enter image description here](https://i.ibb.co/1GjqZWf7/unnamed.png)
+
 	*(If you do not see the folder, it is likely because Unreal Engine was open when you created the new folder. Restart your Engine and the folder should appear.)*
 
-8. This plugin folder is where you will place all of your mod files (excluding dummied files from the vanilla game):
+9. This plugin folder is where you will place all of your mod files (excluding dummied files from the vanilla game):
     
 	- Your mod content folder should include a Blueprint Actor named ‘MOD_’ followed by the name of your mod. This actor replaces the traditional ‘ModActor’  Blueprint from previous methods as your primary logic control, and makes keeping track of mods easier in-engine.
     
@@ -135,14 +136,14 @@ By Donny00, with help from KZekai and TheHuman
 
 	- There is no requirement for labels for this packaging method.
 
-9. When you are ready to package your mod, run the ‘pack_mod.bat’ as in step 15 of the initial setup, where the mod name is the mod you want to package:
+10. When you are ready to package your mod, run the ‘pack_mod.bat’ as in step 15 of the initial setup, where the mod name is the mod you want to package:
 	
 	![enter image description here](https://i.ibb.co/v4L7qPTX/unnamed.png)
 
-10. Your packed mod files will be output to a .zip in this folder of your Unreal project:  
+11. Your packed mod files will be output to a .zip in this folder of your Unreal project:  
           `…\Saved\ArchivedPlugins\Windows`
 
-11. ***(Optional)*** Once packaged, you can rename the .pak, .ucas, & .utoc mod files for clarity, but they cannot be moved from their folder.
+12. ***(Optional)*** Once packaged, you can rename the .pak, .ucas, & .utoc mod files for clarity, but they cannot be moved from their folder.
     
 	This is most easily done using the program WinRAR, otherwise you will need to extract the files and then re-zip them.
 
