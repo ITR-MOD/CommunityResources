@@ -128,7 +128,7 @@ By Donny00, with help from KZekai and TheHuman
 
 	*(If you do not see the folder, it is likely because Unreal Engine was open when you created the new folder. Restart your Engine and the folder should appear.)*
 
-9. This plugin folder is where you will place all of your mod files (excluding dummied files from the vanilla game):
+8. This plugin folder is where you will place all of your mod files (excluding dummied files from the vanilla game):
     
 	- Your mod content folder should include a Blueprint Actor named ‘MOD_’ followed by the name of your mod. This actor replaces the traditional ‘ModActor’  Blueprint from previous methods as your primary logic control, and makes keeping track of mods easier in-engine.
     
@@ -136,14 +136,14 @@ By Donny00, with help from KZekai and TheHuman
 
 	- There is no requirement for labels for this packaging method.
 
-10. When you are ready to package your mod, run the ‘pack_mod.bat’ as in step 15 of the initial setup, where the mod name is the mod you want to package:
+9. When you are ready to package your mod, run the ‘pack_mod.bat’ as in step 11 of the initial setup, where the mod name is the mod you want to package:
 	
 	![enter image description here](https://i.ibb.co/v4L7qPTX/unnamed.png)
 
-11. Your packed mod files will be output to a .zip in this folder of your Unreal project:  
+10. Your packed mod files will be output to a .zip in this folder of your Unreal project:  
           `…\Saved\ArchivedPlugins\Windows`
 
-12. ***(Optional)*** Once packaged, you can rename the .pak, .ucas, & .utoc mod files for clarity, but they cannot be moved from their folder.
+11. ***(Optional)*** Once packaged, you can rename the .pak, .ucas, & .utoc mod files for clarity, but they cannot be moved from their folder.
     
 	This is most easily done using the program WinRAR, otherwise you will need to extract the files and then re-zip them.
 
